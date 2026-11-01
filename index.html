@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupom Maníacos | Compras Inteligentes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Ambiente Visual Tridimensional e Auroras -->
+<div class="ambient-background" aria-hidden="true">
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+    <div class="aurora aurora-3"></div>
+    <div class="cursor-light"></div>
+    <div class="noise-overlay"></div>
+</div>
+
+<!-- Navegação Flutuante Premium -->
+<header class="glass-nav">
+    <div class="nav-container">
+        <a href="#" class="logo reveal-fade">
+                <span class="logo-icon glow-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                </span>
+            Cupom Maníacos
+        </a>
+
+        <button class="mobile-menu-btn reveal-fade" aria-label="Abrir menu" aria-expanded="false">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+
+        <nav class="nav-links">
+            <a href="#problema" class="nav-item reveal-fade" style="--delay: 0.1s">O problema</a>
+            <a href="#ideia" class="nav-item reveal-fade" style="--delay: 0.15s">A ideia</a>
+            <a href="#como-funciona" class="nav-item reveal-fade" style="--delay: 0.2s">Como funciona</a>
+            <a href="#diferenciais" class="nav-item reveal-fade" style="--delay: 0.25s">Diferenciais</a>
+
+            <div class="nav-actions reveal-fade" style="--delay: 0.3s">
+                <button id="theme-toggle" class="magnetic-item" aria-label="Alternar tema">
+                    <div class="theme-toggle-inner">
+                        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </div>
+                </button>
+                <a href="#ideia" class="btn btn-primary magnetic-btn">
+                    <span class="btn-content">Conheça a ideia</span>
+                    <div class="btn-reflection"></div>
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- SEÇÃO 1: HERO -->
+    <section id="hero" class="hero section-padding">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="eyebrow reveal-fade-up">COMPRAS MAIS INTELIGENTES COMEÇAM COM INTENÇÃO</span>
+                <h1 class="reveal-fade-up" style="--delay: 0.1s">Você escolhe o que quer. A gente ajuda a <span class="text-gradient">encontrar a hora certa.</span></h1>
+                <p class="subtitle reveal-fade-up" style="--delay: 0.2s">Imagine acompanhar o preço daquele produto que você tanto quer, definir quanto pretende pagar e identificar oportunidades sem precisar procurar ofertas o tempo todo. Essa é a ideia do Cupom Maníacos.</p>
+                <div class="hero-actions reveal-fade-up" style="--delay: 0.3s">
+                    <a href="#como-funciona" class="btn btn-primary magnetic-btn">
+                        <span class="btn-content">Descubra como funciona</span>
+                        <div class="btn-reflection"></div>
+                    </a>
+                    <a href="#problema" class="btn btn-outline">Entenda o problema</a>
+                </div>
+                <p class="supporting-text reveal-fade-up" style="--delay: 0.4s">Uma ideia para tornar a busca por boas compras mais direcionada, simples e conveniente.</p>
+            </div>
+
+            <div class="hero-visual-wrapper reveal-scale" style="--delay: 0.3s">
+                <!-- Elementos flutuantes independentes -->
+                <div class="floating-element el-history glass-card">
+                    <div class="mini-chart-header">
+                        <span class="dot-indicator"></span> Histórico
+                    </div>
+                    <svg viewBox="0 0 100 30" class="mini-sparkline">
+                        <polyline points="0,25 20,20 40,28 60,15 80,18 100,5"></polyline>
+                    </svg>
+                </div>
+
+                <div class="floating-element el-opp badge-glow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Oportunidade ilustrativa
+                </div>
+
+                <div class="floating-element el-target glass-card">
+                    <div class="el-target-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                    </div>
+                    <div class="el-target-text">
+                        <span class="label">Preço-alvo definido</span>
+                        <span class="value">R$ 300,00</span>
+                    </div>
+                </div>
+
+                <!-- Painel interativo 3D -->
+                <div class="tilt-container">
+                    <div class="conceptual-dashboard glass-panel tilt-element">
+                        <div class="card-glow-bg"></div>
+                        <div class="panel-border-glow"></div>
+                        <div class="dashboard-header">
+                            <div class="product-info">
+                                <span class="badge">Conceito de Acompanhamento</span>
+                                <h3>SSD NVMe 1 TB</h3>
+                            </div>
+                        </div>
+                        <div class="dashboard-body">
+                            <div class="price-cards">
+                                <div class="price-card">
+                                    <span class="label">Preço ilustrativo</span>
+                                    <span class="value">R$ 329,90</span>
+                                </div>
+                                <div class="price-card target active-glow">
+                                    <span class="label">Seu Preço-alvo</span>
+                                    <span class="value target-value">R$ 300,00</span>
+                                </div>
+                            </div>
+
+                            <div class="conceptual-chart" aria-label="Gráfico fictício animado">
+                                <svg viewBox="0 0 400 150" class="chart-svg premium-svg">
+                                    <defs>
+                                        <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+                                            <stop offset="0%" stop-color="var(--color-primary)" stop-opacity="0.3"/>
+                                            <stop offset="100%" stop-color="var(--color-bg)" stop-opacity="0"/>
+                                        </linearGradient>
+                                        <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+                                            <stop offset="0%" stop-color="var(--color-text-muted)"/>
+                                            <stop offset="100%" stop-color="var(--color-primary)"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Area preenchida (animação de entrada controlada via clip-path no JS ou CSS) -->
+                                    <path class="chart-area" d="M0,40 L100,50 L200,30 L300,110 L400,105 L400,150 L0,150 Z" fill="url(#chartGradient)"/>
+                                    <!-- Linha do preço alvo -->
+                                    <line x1="0" y1="100" x2="400" y2="100" class="target-line animated-line"/>
+                                    <!-- Linha de evolução animada -->
+                                    <path class="price-line draw-line" d="M0,40 L100,50 L200,30 L300,110 L400,105" pathLength="1"/>
+                                    <!-- Ponto de oportunidade -->
+                                    <circle cx="300" cy="110" r="6" class="opportunity-point pulse-glow" />
+                                </svg>
+                                <div class="chart-tooltip glass-card">
+                                    Meta atingida
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: O PROBLEMA -->
+    <section id="problema" class="section-padding fade-trigger">
+        <div class="container">
+            <div class="section-header text-center reveal-fade-up">
+                <span class="eyebrow">O PROBLEMA</span>
+                <h2>Encontrar uma boa oferta não deveria virar um trabalho.</h2>
+                <p class="section-desc">Quem procura economizar acaba espalhando a pesquisa entre lojas, grupos de ofertas e diferentes canais. É preciso comparar preços, conferir condições e voltar várias vezes para saber se apareceu algo melhor.</p>
+            </div>
+
+            <div class="grid-3 problem-cards">
+                <div class="card glass-card premium-card reveal-fade-up" style="--delay: 0.1s">
+                    <div class="card-glow-bg danger-glow"></div>
+                    <div class="card-icon danger">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><line x1="9" y1="10" x2="15" y2="10"></line><line x1="12" y1="7" x2="12" y2="13"></line></svg>
+                    </div>
+                    <h3>Excesso de ofertas</h3>
+                    <p>São tantas mensagens e promoções que encontrar aquilo que realmente interessa pode se tornar cansativo.</p>
+                </div>
+                <div class="card glass-card premium-card reveal-fade-up" style="--delay: 0.2s">
+                    <div class="card-glow-bg danger-glow"></div>
+                    <div class="card-icon danger">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><path d="M11 8v6"></path></svg>
+                    </div>
+                    <h3>Pesquisa repetitiva</h3>
+                    <p>Quem deseja um produto específico muitas vezes precisa consultar várias lojas e repetir a mesma busca.</p>
+                </div>
+                <div class="card glass-card premium-card reveal-fade-up" style="--delay: 0.3s">
+                    <div class="card-glow-bg danger-glow"></div>
+                    <div class="card-icon danger">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <h3>Dificuldade para acompanhar preços</h3>
+                    <p>Sem um acompanhamento organizado, fica mais difícil perceber quando um produto se aproxima do valor que você considera interessante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO INTERATIVA: DO EXCESSO À INTENÇÃO -->
+    <section id="ideia" class="section-padding fade-trigger relative">
+        <div class="container split-layout align-center">
+            <div class="split-content reveal-fade-up">
+                <span class="eyebrow">A NOSSA IDEIA</span>
+                <h2>E se você pudesse começar pela compra que realmente deseja fazer?</h2>
+                <p>O Cupom Maníacos propõe uma maneira mais direcionada de encontrar oportunidades. Em vez de acompanhar todas as promoções, a pessoa começa escolhendo um produto e definindo o valor que pretende pagar.</p>
+                <p>A partir dessa intenção, a proposta é organizar informações sobre preços e condições de compra para ajudar o usuário a identificar quando uma oportunidade estiver alinhada à sua meta.</p>
+            </div>
+
+            <div class="split-visual transition-visual reveal-scale" style="--delay: 0.2s">
+                <div class="visual-scene scene-messy">
+                    <div class="ghost-card float-anim blur-1">Oferta aleatória: -5%</div>
+                    <div class="ghost-card float-anim blur-2" style="animation-delay: -2s">Promoção de fone</div>
+                    <div class="ghost-card float-anim blur-3" style="animation-delay: -4s">Desconto relâmpago</div>
+                </div>
+                <div class="transition-arrow magnetic-item">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+                <div class="focused-intent glass-panel premium-card border-success">
+                    <div class="card-glow-bg success-glow"></div>
+                    <div class="intent-header">Sua Intenção</div>
+                    <div class="intent-body">Produto desejado</div>
+                    <div class="intent-target">Preço-alvo definido</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 4: COMO FUNCIONA -->
+    <section id="como-funciona" class="section-padding fade-trigger">
+        <div class="container">
+            <div class="section-header text-center reveal-fade-up">
+                <span class="eyebrow">SIMPLIFICAR A JORNADA DE COMPRA</span>
+                <h2>Do desejo à oportunidade, sem complicar.</h2>
+                <p class="section-desc">A experiência que imaginamos para o Cupom Maníacos começa com uma escolha simples: o que você quer comprar e quanto pretende pagar?</p>
+            </div>
+
+            <div class="journey-flow reveal-stagger-parent">
+                <div class="journey-line"></div>
+                <div class="step-card glass-card premium-card reveal-fade-up">
+                    <div class="card-glow-bg"></div>
+                    <div class="step-number glow-circle">1</div>
+                    <h3>Escolha seu produto</h3>
+                    <p>Encontre o produto que você deseja acompanhar.</p>
+                </div>
+                <div class="step-card glass-card premium-card reveal-fade-up">
+                    <div class="card-glow-bg"></div>
+                    <div class="step-number glow-circle">2</div>
+                    <h3>Defina seu preço-alvo</h3>
+                    <p>Estabeleça um valor que faça sentido para o seu orçamento.</p>
+                </div>
+                <div class="step-card glass-card premium-card reveal-fade-up">
+                    <div class="card-glow-bg"></div>
+                    <div class="step-number glow-circle">3</div>
+                    <h3>Acompanhe as oportunidades</h3>
+                    <p>A proposta é organizar as informações de preço e as condições de compra para facilitar o acompanhamento.</p>
+                </div>
+                <div class="step-card glass-card premium-card reveal-fade-up">
+                    <div class="card-glow-bg"></div>
+                    <div class="step-number glow-circle success">4</div>
+                    <h3>Identifique o momento certo</h3>
+                    <p>Quando uma oferta compatível atingir o valor desejado, a solução pretende avisar você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 5: COMPRA MAIS CONSCIENTE -->
+    <section class="section-padding fade-trigger">
+        <div class="container">
+            <div class="section-header text-center reveal-fade-up">
+                <span class="eyebrow">OLHAR ALÉM DO DESCONTO</span>
+                <h2>Preço bom é aquele que faz sentido no total.</h2>
+                <p class="section-desc">Um produto anunciado por menos nem sempre representa a melhor oportunidade. O frete e as condições da oferta também importam. A ideia do Cupom Maníacos é considerar o custo total da compra ajudando na comparação.</p>
+            </div>
+
+            <div class="comparison-visual reveal-stagger-parent">
+                <div class="store-card glass-card premium-card winner reveal-scale" style="--delay: 0.1s">
+                    <div class="card-glow-bg success-glow"></div>
+                    <div class="store-badge text-gradient">Loja Azul</div>
+                    <div class="math-row"><span>Produto</span> <span>R$ 329,90</span></div>
+                    <div class="math-row"><span>Frete</span> <span>R$ 0,00</span></div>
+                    <div class="math-total"><span>Total ilustrativo</span> <span class="highlight">R$ 329,90</span></div>
+                    <div class="winner-label"><span class="pulse-dot"></span> Menor custo total</div>
+                </div>
+                <div class="store-card glass-card premium-card reveal-scale" style="--delay: 0.2s">
+                    <div class="card-glow-bg"></div>
+                    <div class="store-badge">Loja Verde</div>
+                    <div class="math-row"><span>Produto</span> <span>R$ 314,90</span></div>
+                    <div class="math-row"><span>Frete</span> <span class="muted">R$ 25,00</span></div>
+                    <div class="math-total"><span>Total ilustrativo</span> <span>R$ 339,90</span></div>
+                </div>
+                <div class="store-card glass-card premium-card reveal-scale" style="--delay: 0.3s">
+                    <div class="card-glow-bg"></div>
+                    <div class="store-badge">Loja Centro</div>
+                    <div class="math-row"><span>Produto</span> <span>R$ 349,90</span></div>
+                    <div class="math-row"><span>Frete</span> <span>R$ 0,00</span></div>
+                    <div class="math-total"><span>Total ilustrativo</span> <span>R$ 349,90</span></div>
+                </div>
+            </div>
+            <p class="disclaimer text-center reveal-fade">Exemplo fictício para ilustrar a proposta. Os valores não representam cotações reais.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 6: DIFERENCIAIS -->
+    <section id="diferenciais" class="section-padding fade-trigger relative">
+        <div class="container split-layout align-center">
+            <div class="split-visual editorial-visual reveal-scale">
+                <div class="editorial-orb float-anim"></div>
+                <div class="editorial-card glass-panel premium-card">
+                    <div class="card-glow-bg"></div>
+                    <span class="icon-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle></svg></span>
+                    Foco no seu objetivo
+                </div>
+                <div class="editorial-card glass-panel premium-card secondary-card float-anim" style="animation-delay: -2s;">
+                    <div class="card-glow-bg"></div>
+                    <span class="icon-accent success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></span>
+                    Sem ruído
+                </div>
+            </div>
+
+            <div class="split-content reveal-stagger-parent">
+                <span class="eyebrow reveal-fade-up">O NOSSO DIFERENCIAL</span>
+                <h2 class="reveal-fade-up">Não é sobre receber mais ofertas. É sobre encontrar as ofertas certas para você.</h2>
+                <p class="reveal-fade-up">O Cupom Maníacos parte de uma intenção de compra específica. Em vez de colocar o consumidor diante de um fluxo interminável de promoções, a proposta é ajudá-lo a acompanhar aquilo que realmente deseja.</p>
+
+                <ul class="differentiator-list">
+                    <li class="reveal-fade-up">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div>
+                            <strong>Foco na intenção de compra</strong>
+                            <span>O acompanhamento começa com um produto escolhido pelo próprio usuário.</span>
+                        </div>
+                    </li>
+                    <li class="reveal-fade-up">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div>
+                            <strong>Metas que fazem sentido para o consumidor</strong>
+                            <span>A pessoa define um valor de referência, em vez de depender dos descontos anunciados.</span>
+                        </div>
+                    </li>
+                    <li class="reveal-fade-up">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div>
+                            <strong>Informações mais claras para comparar</strong>
+                            <span>A proposta considera o preço e o frete para ajudar na identificação de oportunidades.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 7: VISÃO DE FUTURO -->
+    <section class="section-padding fade-trigger">
+        <div class="container text-center max-w-800 reveal-fade-up">
+            <span class="eyebrow">ONDE QUEREMOS CHEGAR</span>
+            <h2>Uma experiência de compra mais alinhada às suas escolhas.</h2>
+            <p>Queremos explorar uma maneira mais simples de acompanhar produtos desejados, compreender a evolução dos preços e identificar oportunidades compatíveis com o orçamento de cada pessoa. O Cupom Maníacos nasce como uma ideia que pretende aproximar tecnologia e decisões de compra conscientes.</p>
+
+            <div class="future-visual mt-3 glass-panel premium-card reveal-scale" style="--delay: 0.2s">
+                <div class="card-glow-bg"></div>
+                <div class="notification-concept glass-card">
+                    <div class="card-glow-bg"></div>
+                    <div class="notif-header">
+                        <span class="notif-dot pulse-glow"></span> Meta de preço atingida
+                    </div>
+                    <div class="notif-title text-gradient">SSD NVMe 1 TB</div>
+                    <div class="notif-prices">
+                        <div class="price-row">Preço ilustrativo: <strong>R$ 299,90</strong></div>
+                        <div class="price-row target">Seu preço-alvo: <strong>R$ 300,00</strong></div>
+                    </div>
+                    <div class="badge-wrapper"><span class="badge">Simulação conceitual</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 8: CHAMADA FINAL -->
+    <section class="section-padding call-to-action fade-trigger text-center">
+        <div class="container glass-panel cta-panel premium-card reveal-scale">
+            <div class="card-glow-bg"></div>
+            <h2>Seu próximo bom negócio pode começar com uma escolha.</h2>
+            <p>Escolher o que comprar e quanto pagar é o primeiro passo. O Cupom Maníacos propõe tornar o acompanhamento de oportunidades mais organizado, direcionado e conveniente.</p>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="btn btn-primary magnetic-btn mt-2">
+                <span class="btn-content">Voltar ao início</span>
+                <div class="btn-reflection"></div>
+            </button>
+        </div>
+    </section>
+</main>
+
+<!-- SEÇÃO 9: RODAPÉ -->
+<footer class="glass-footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <a href="#" class="logo">
+                    <span class="logo-icon glow-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                    </span>
+                Cupom Maníacos
+            </a>
+            <p>O acompanhamento de oportunidades começa com a sua intenção de compra.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#problema" class="magnetic-item">O problema</a>
+            <a href="#ideia" class="magnetic-item">A ideia</a>
+            <a href="#como-funciona" class="magnetic-item">Como funciona</a>
+        </div>
+    </div>
+    <div class="footer-bottom text-center">
+        <p>Este é um projeto acadêmico conceitual desenvolvido para a disciplina de Projeto Multigerador de Ideias - Curso de Análise e Desenvolvimento de Sistemas.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
